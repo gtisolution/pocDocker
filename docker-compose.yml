@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  corelinuxapp:
+    image: ${DOCKER_REGISTRY}corelinuxapp
+    build:
+      context: .
+      dockerfile: CoreLinuxApp/Dockerfile
